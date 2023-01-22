@@ -1,0 +1,66 @@
+body {
+  font-family: "Dosis", sans-serif;
+  font-weight: 500;
+}
+
+#star {
+  background-color: #1b1a1a;
+  height: 100vh;
+  color: #fff;
+  margin: 0;
+  padding: 0;
+}
+#star .box {
+  background-color: #2c2f3f;
+  border-radius: 58px;
+  float: right;
+  width: 460px;
+  margin: 74px 320px;
+  height: 85vh;
+  font-size: 30px;
+}
+#star .box i {
+  margin: 15px 37px;
+  color: #db7b21;
+}
+#star .box h1 {
+  margin: 33px 88px 21px 43px;
+  font-size: 45px;
+}
+#star .box h2 {
+  margin: 33px 88px 21px 43px;
+  font-size: 38px;
+}
+#star .box span {
+  display: flex;
+  justify-content: space-around;
+  border-radius: 50%;
+  border: none;
+  float: left;
+  padding: 5px 5px 5px 5px;
+  margin: 10px 5px 5px 35px;
+  width: 38px;
+  background-color: #504b4b;
+}
+#star .box input {
+  border-radius: 20px;
+  margin: 30px 65px;
+  background-color: #db7b21;
+  letter-spacing: 5px;
+  color: white;
+  width: 300px;
+  font-size: 25px;
+}
+@media screen and (max-width: 393px) {
+  #star .box {
+    width: 372px;
+    height: 85vh;
+    margin: 76px 4px;
+  }
+  #star .box span {
+    margin: 2px 2px 15px 20px;
+  }
+  #star .box input {
+    margin: 10px 15px 2px 15px;
+  }
+}/*# sourceMappingURL=style.css.map */
